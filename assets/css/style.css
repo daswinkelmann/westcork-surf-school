@@ -10,3 +10,15 @@ h1 {
     font-family: "Orelega one";
     font-weight: 400;
 }
+
+/* grid visualisation CSS for testing structure */
+
+.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightblue;
+}
