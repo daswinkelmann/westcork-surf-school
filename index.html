@@ -20,11 +20,13 @@
 
 <!-- Classes on body set to work with mt-auto on the footer to ensure the footer always stays at the bottom of the page -->
 
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column min-vh-100 ">
     <!-- Navigation -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
     <div class="container">
-        <a class="navbar-brand" href="index.html">Navbar</a>
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/favicon/favicon-32x32.png" alt="logo" class="logo">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -165,7 +167,7 @@
 
     <!-- Footer / contact section -->
     <!-- mt-auto class added to push the footer to the bottom of the page -->
-    <footer class="mt-auto">
+    <footer id="footer" class="mt-auto">
         <section class="container">
             <div class="row justify-content-center">
                 <div class="col-12">Contact Section heading</div>

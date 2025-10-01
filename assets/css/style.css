@@ -11,6 +11,12 @@ h1 {
     font-weight: 400;
 }
 
+#navbar {
+background-color: teal;
+}
+
+
+
 /* grid visualisation CSS for testing structure 
 
 .container,
@@ -26,4 +32,12 @@ h1 {
 
 .test {
     float: right;
+}
+
+footer {
+    height: 1000px;
+}
+
+body {
+    scroll-behaviour: smooth;
 }
