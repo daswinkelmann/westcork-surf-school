@@ -22,52 +22,83 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <div>Navigation</div>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact</a>
+                </li>
+            
+            </ul>
+        </div>
+    </div>
+</nav>
 
     <!-- Header with carousel -->
     <header class="container">
         <div class="row">
             <div class="col-12 col-xl-6">
-            <h1>Welcome to Surfsup</h1>
-            <h2>West Cork's finest Surf School</h2>
-            <p>
-                Surf'sup Surf school is the perfect place to catch waves on Ireland’s Wild Atlantic Way. From first-time surfers to families and improvers, our qualified instructors provide safe, fun lessons with top-quality equipment. Enjoy stunning beaches, exciting activities, and unforgettable surf experiences for all ages and abilities.
-            </p>
+                <h1>Welcome to Surfsup</h1>
+                <h2>West Cork's finest Surf School</h2>
+                <p>
+                    Surf'sup Surf school is the perfect place to catch waves on Ireland’s Wild Atlantic Way. From
+                    first-time surfers to families and improvers, our qualified instructors provide safe, fun lessons
+                    with top-quality equipment. Enjoy stunning beaches, exciting activities, and unforgettable surf
+                    experiences for all ages and abilities.
+                </p>
             </div>
-            
+
             <!-- Carousel - structure -->
             <div class="col-12 col-xl-6">
-            <!-- Carousel - code from BS -->
+                <!-- Carousel - code from BS -->
                 <div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="assets/images/girl-wave_2.webp" class="d-block w-100" alt="woman on wave">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/adult-wave2.webp" class="d-block w-100" alt="advanced wave">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/group-lesson2.webp" class="d-block w-100" alt="kids group lesson">
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/van-beach2.webp" class="d-block w-100" alt="surf school and van">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/images/girl-wave_2.webp" class="d-block w-100" alt="woman on wave">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/adult-wave2.webp" class="d-block w-100" alt="advanced wave">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/group-lesson2.webp" class="d-block w-100" alt="kids group lesson">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/van-beach2.webp" class="d-block w-100" alt="surf school and van">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
 
             </div>
         </div>
@@ -97,7 +128,8 @@
                         <img src="assets/images/service-kids-on-beach.webp" class="card-img-top" alt="couple surfing">
                         <div class="card-body">
                             <h5 class="card-title">Kids Surf Camp</h5>
-                            <p class="card-text">Fun-filled surfing adventures for children aged 7+, with safety first.</p>
+                            <p class="card-text">Fun-filled surfing adventures for children aged 7+, with safety first.
+                            </p>
                             <a href="#" class="btn btn-primary test">more info</a>
                         </div>
                     </div>
@@ -113,14 +145,15 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- Card 4 - Stand-Up Paddle Board -->
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="card" style="width: 100%;">
                         <img src="assets/images/service-standup-man.webp" class="card-img-top" alt="couple surfing">
                         <div class="card-body">
                             <h5 class="card-title">Stand-Up Paddle Board</h5>
-                            <p class="card-text">Explore West Cork’s coastline with relaxing, beginner-friendly paddle boarding.</p>
+                            <p class="card-text">Explore West Cork’s coastline with relaxing, beginner-friendly paddle
+                                boarding.</p>
                             <a href="#" class="btn btn-primary test">more info</a>
                         </div>
                     </div>
