@@ -1,18 +1,31 @@
 /* Google Font import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orelega+One&family=Outfit:wght@100..900&display=swap');
 
+/* CSS variables */
+:root {
+--primary-font: "Inter", sans-serif;
+--secondary-font: "Orelega One", serif;
+--primary-color: #05445E; /* navy blue */
+--secondary-color: #189AB4; /* Blue Grotto */
+--highlight-color: #F7CB2D; /* amber */
+--highlight-color-light: #D4F1F4; /* pale blue */
+
+
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: var(--primary-font), sans-serif;
 }
 
-h1 {
-    font-family: "Orelega one";
-    font-weight: 400;
+h1,
+h2,
+h3 {
+   font-family: var(--secondary-font);
+   color: var(--primary-color);
 }
+
 
 #navbar {
-background-color: teal;
+background-color: var(--primary-color);
 }
 
 div > .card-body {
@@ -41,34 +54,44 @@ div > .card-body {
 
 .test {
     float: left;
+    color: white;
+    background-color: var(--primary-color);
     
 }
 
 /* footer contact */
 
 footer {
-    height: 1000px;
-    background-color: cadetblue;
+   /* height: 1000px; */
+    background-color: var(--primary-color);
     color: azure;
     padding-bottom: 3rem;
 
 }
 /* update this colour later */
 #footer i {
-    color: hsla(252, 48%, 6%, 0.681);
+    color: var(--highlight-color);
     font-size: 1.2rem;
     margin-right: 15px;
 }
 
 #footer .social-links i {
-    color: rgb(34, 36, 37);
+    color: var(--highlight-color-light);
     font-size: 1.9rem;
     transition: color 0.3s ease-in-out;
 }
 #footer .social-links i:hover {
-    color: red;
+    color: var(--highlight-color);
 }
 
+#footer h2 {
+    color: var(--highlight-color-light);
+}
+
+#footer .table-dark * {
+background-color: transparent;
+border-color: white;
+}
 body {
     scroll-behaviour: smooth;
 }
