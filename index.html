@@ -11,6 +11,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
 
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/ea856bee07.js" crossorigin="anonymous"></script>
+
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -25,7 +28,7 @@
 <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
     <div class="container">
         <a class="navbar-brand" href="index.html">
-            <img src="assets/images/favicon/favicon-32x32.png" alt="logo" class="logo">
+            <img src="assets/images/logo-text-only_sm.png" alt="logo" class="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -138,7 +141,7 @@
                 </div>
                 <!-- Card 3 - Private lessons -->
                 <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card" style="width: 100%;">
+                    <div class="card d-flex" style="width: 100%;">
                         <img src="assets/images/service-adult-wave1.webp" class="card-img-top" alt="couple surfing">
                         <div class="card-body">
                             <h5 class="card-title">Private lessons</h5>
@@ -168,15 +171,49 @@
     <!-- Footer / contact section -->
     <!-- mt-auto class added to push the footer to the bottom of the page -->
     <footer id="footer" class="mt-auto">
-        <section class="container">
+        <div class="container section">
             <div class="row justify-content-center">
-                <div class="col-12">Contact Section heading</div>
+                <div class="col-12 text-center">
+                    <h2 class="display-6">Contact Us</h2>
+                </div>
                 <!-- Contact info -->
-                <div class="col-12 col-md-6 col-xl-4">Contact info & social links</div>
+                <div class="col-12 col-md-6 col-xl-4">
+                    <h3 class="sub-heading-color">Contact Info</h3>
+                    <address>
+                        <strong><i class="fa-solid fa-compass"></i> Inchydoney Beach</strong><br>
+                        Inchydoney Island<br>
+                        Clonakilty<br>
+                        Country Cork
+                    </address>
+                    <p><i class="fa-solid fa-phone-flip"></i> 023 456 7890<br>
+                        <i class="fa-solid fa-envelope"></i> info@surfsup.ie
+                    </p>
+                        <div class="social-links mt-4">
+                            <a href="https://www.instagram.com/" 
+                                target="_blank"
+                                aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/" 
+                                target="_blank"
+                                aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://www.X.com/" 
+                                target="_blank"
+                                aria-label="Visit our X page (opens in a new tab)" rel="noopener">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </div>
+
+
+                   
+                    
+                </div>
                 <!-- Opening times -->
                 <div class="col-12 col-md-6 col-xl-4">Opening times</div>
             </div>
-        </section>
+        </div>
     </footer>
 
 

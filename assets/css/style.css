@@ -15,7 +15,16 @@ h1 {
 background-color: teal;
 }
 
+div > .card-body {
+    background-color: rgb(181, 232, 222);
+    height: 190px;
+    
+}
 
+.social-links {
+    font-size: x-large;
+    color: azure;
+}
 
 /* grid visualisation CSS for testing structure 
 
@@ -31,12 +40,31 @@ background-color: teal;
 */
 
 .test {
-    float: right;
+    float: left;
+    
 }
+
+/* footer contact */
 
 footer {
     height: 1000px;
+    background-color: cadetblue;
+    color: azure;
+    padding-bottom: 3rem;
+
 }
+
+#footer i {
+    color: hsla(252, 48%, 6%, 0.681);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#footer .social-links i {
+    color: whitesmoke;
+    font-size: 1.9rem;
+}
+
 
 body {
     scroll-behaviour: smooth;
