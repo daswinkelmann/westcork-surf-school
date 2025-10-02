@@ -29,7 +29,7 @@ background-color: var(--primary-color);
 }
 
 div > .card-body {
-    background-color: rgb(181, 232, 222);
+    background-color: var(--highlight-color-light);
     height: 190px;
     
 }
@@ -56,7 +56,12 @@ div > .card-body {
     float: left;
     color: white;
     background-color: var(--primary-color);
-    
+    border-color: var(--primary-color);
+}
+
+.card-body > h5 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
 }
 
 /* footer contact */
@@ -70,7 +75,7 @@ footer {
 }
 /* update this colour later */
 #footer i {
-    color: var(--highlight-color);
+    color: var(--highlight-color-light);
     font-size: 1.2rem;
     margin-right: 15px;
 }
