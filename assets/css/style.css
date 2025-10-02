@@ -53,7 +53,7 @@ footer {
     padding-bottom: 3rem;
 
 }
-
+/* update this colour later */
 #footer i {
     color: hsla(252, 48%, 6%, 0.681);
     font-size: 1.2rem;
@@ -61,10 +61,13 @@ footer {
 }
 
 #footer .social-links i {
-    color: whitesmoke;
+    color: rgb(34, 36, 37);
     font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
 }
-
+#footer .social-links i:hover {
+    color: red;
+}
 
 body {
     scroll-behaviour: smooth;
