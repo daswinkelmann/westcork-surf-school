@@ -60,18 +60,6 @@ div > .card {
     color: azure;
 }
 
-/* grid visualisation CSS for testing structure 
-
-.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightblue;
-}
-*/
 
 .test {
     float: left;
@@ -120,9 +108,6 @@ footer {
 background-color: transparent;
 border-color: white;
 }
-body {
-    scroll-behaviour: smooth;
-}
 
 #opening-times {
    padding-left: 12px;
@@ -140,7 +125,7 @@ body {
 
 
 
-/* Tablet (≥768px) */
+/* Tablet (768px) */
 @media (min-width: 768px) {
   h1 {
     font-size: 3rem;
@@ -151,7 +136,7 @@ body {
   }
 }
 
-/* Desktop (≥992px) */
+/* Desktop (992px) */
 @media (min-width: 992px) {
   h1 {
     font-size: 3rem;
