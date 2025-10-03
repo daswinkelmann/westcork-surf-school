@@ -92,6 +92,9 @@ The primary colours take inspiration directly from the ocean, offering a mix of 
 | Amber             | `#F7CB2D`  | Adds a warm contrast like sunshine or sand    |
 | Teal (Secondary)  | `#00B2A9`  | Used for accents and surf-inspired energy     |
 
+
+| ![Colour Palette](images/ssup_colour_palette.png) |
+
 ---
 
 ## Typography
