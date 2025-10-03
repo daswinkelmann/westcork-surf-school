@@ -176,11 +176,12 @@ The imagery in **SurfsUp** showcases the services at their best using photo-real
 
 The site’s HTML and CSS were tested using official W3C tools and passed without errors. Screenshots of the results are included below.
 
-| File              | Validator Screenshot                     |
-|-------------------|------------------------------------------|
-| `index.html`      | ![HTML Validator](images/html-validator.png) |
-| `services.html`   | ![Services Validator](images/services-validator.png) |
-| `style.css`       | ![CSS Validator](images/css-validator.png) |---
+
+| File             | Validator Screenshot                        |
+|------------------|---------------------------------------------|
+| `index.html`     | ![HTML Validator](images/html-validator.png) |
+| `services.html`  | ![Services Validator](images/services-validator.png) |
+| `style.css`      | ![CSS Validator](images/css-validator.png)   |
 
 ## Lighthouse Testing
 
