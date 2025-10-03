@@ -103,9 +103,21 @@ The **SurfsUp** project uses two free and widely accessible Google Fonts: **Orel
 
 ### Font Samples
 
-| Inter A | Inter B | Orelega A | Orelega B |
-|---------|---------|-----------|-----------|
-| ![Inter A](images/inter_A.png) | ![Inter B](images/inter_B.png) | ![Orelega A](images/orelega_A.png) | ![Orelega B](images/orelega_B.png) |
+| Inter A |
+|---------|
+| ![Inter A](images/inter_A.png) |
+
+| Inter B |
+|---------|
+| ![Inter B](images/inter_B.png) |
+
+| Orelega A |
+|-----------|
+| ![Orelega A](images/orelega_A.png) |
+
+| Orelega B |
+|-----------|
+| ![Orelega B](images/orelega_B.png) |
 
 ---
 
