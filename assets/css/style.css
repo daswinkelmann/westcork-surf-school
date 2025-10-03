@@ -1,149 +1,139 @@
 /* Google Font import */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orelega+One&family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orelega+One&family=Outfit:wght@100..900&display=swap");
 
 /* CSS variables */
 :root {
---primary-font: "Inter", sans-serif;
---secondary-font: "Orelega One", serif;
---primary-color: #05445E; /* navy blue */
---secondary-color: #189AB4; /* Blue Grotto */
---highlight-color: #F7CB2D; /* amber */
---highlight-color-light: #D4F1F4; /* faded blue */
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Orelega One", serif;
+    --primary-color: #05445e; /* navy blue */
+    --secondary-color: #189ab4; /* Blue Grotto */
+    --highlight-color: #f7cb2d; /* amber */
+    --highlight-color-light: #d4f1f4; /* faded blue */
 
+    body {
+        font-family: var(--primary-font), sans-serif;
+        scroll-behavior: smooth;
+        padding-top: 80px;
+    }
 
+    h1,
+    h2,
+    h3 {
+        font-family: var(--secondary-font);
+        color: var(--primary-color);
+        margin-top: 16px;
+    }
 
+    /* Base heading sizes for small screens (<768px) */
+    h1 {
+        font-size: 2.5rem;
+    }
 
-body {
-    font-family: var(--primary-font), sans-serif;
-      scroll-behavior: smooth;
-    padding-top: 80px;
-}
+    h2 {
+        font-size: 1.75rem;
+    }
 
-h1,
-h2,
-h3 {
-   font-family: var(--secondary-font);
-   color: var(--primary-color);
-   margin-top: 16px;
-}
+    #navbar {
+        background-color: var(--primary-color);
+    }
 
-/* Base heading sizes for small screens (<768px) */
-h1 {
-  font-size: 2.5rem;
-}
+    .carousel {
+        margin-top: 32px;
+    }
 
-h2 {
-  font-size: 1.75rem;
-}
+    div > .card-body {
+        background-color: var(--highlight-color-light);
+        height: 190px;
+    }
 
-#navbar {
-background-color: var(--primary-color);
-}
-
-.carousel {
-       margin-top: 32px;
-
-}
-
-div > .card-body {
-    background-color: var(--highlight-color-light);
-    height: 190px;    
-}
-
-div > .card {
+    div > .card {
         margin-bottom: 24px;
+    }
 
+    .social-links {
+        font-size: x-large;
+        color: azure;
+    }
+
+    .test {
+        float: left;
+        color: white;
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+    }
+
+    .card-body > h5 {
+        font-family: var(--secondary-font);
+        color: var(--primary-color);
+    }
+
+    /* footer contact */
+
+    footer {
+        /* height: 1000px; */
+        background-color: var(--primary-color);
+        color: azure;
+        padding-bottom: 3rem;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    /* update this colour later */
+    #footer i {
+        color: var(--secondary-color);
+        font-size: 1.2rem;
+        margin-right: 15px;
+    }
+
+    #footer .social-links i {
+        color: var(--highlight-color-light);
+        font-size: 1.9rem;
+        transition: color 0.3s ease-in-out;
+    }
+    #footer .social-links i:hover {
+        color: var(--highlight-color);
+    }
+
+    #footer h2,
+    h3 {
+        color: var(--highlight-color-light);
+    }
+
+    #footer .table-dark * {
+        background-color: transparent;
+        border-color: white;
+    }
+
+    #opening-times {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    #footer .table * {
+        color: white;
+        margin-right: 24px;
+    }
+
+    /* Media Queries for heading sizes */
+
+    /* Tablet (768px) */
+    @media (min-width: 768px) {
+        h1 {
+            font-size: 3rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+    }
+
+    /* Desktop (992px) */
+    @media (min-width: 992px) {
+        h1 {
+            font-size: 3rem;
+        }
+
+        h2 {
+            font-size: 2.25rem;
+        }
+    }
 }
-
-.social-links {
-    font-size: x-large;
-    color: azure;
-}
-
-
-.test {
-    float: left;
-    color: white;
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
-}
-
-.card-body > h5 {
-    font-family: var(--secondary-font);
-    color: var(--primary-color);
-}
-
-/* footer contact */
-
-footer {
-   /* height: 1000px; */
-    background-color: var(--primary-color);
-    color: azure;
-    padding-bottom: 3rem;
-    padding-left: 12px;
-    padding-right: 12px;
-
-}
-/* update this colour later */
-#footer i {
-    color: var(--secondary-color);
-    font-size: 1.2rem;
-    margin-right: 15px;
-}
-
-#footer .social-links i {
-    color: var(--highlight-color-light);
-    font-size: 1.9rem;
-    transition: color 0.3s ease-in-out;
-}
-#footer .social-links i:hover {
-    color: var(--highlight-color);
-}
-
-#footer h2, h3 {
-    color: var(--highlight-color-light);
-}
-
-#footer .table-dark * {
-background-color: transparent;
-border-color: white;
-}
-
-#opening-times {
-   padding-left: 12px;
-    padding-right: 12px;
-}
-
-#footer .table * {
-    color: white;
-    margin-right: 24px;
-}
-
-
-/* Media Queries for heading sizes */
-
-
-
-
-/* Tablet (768px) */
-@media (min-width: 768px) {
-  h1 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-}
-
-/* Desktop (992px) */
-@media (min-width: 992px) {
-  h1 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 2.25rem;
-  }
-}
-
