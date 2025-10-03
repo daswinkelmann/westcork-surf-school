@@ -15,6 +15,8 @@
 
 body {
     font-family: var(--primary-font), sans-serif;
+      scroll-behavior: smooth;
+    padding-top: 80px;
 }
 
 h1,
@@ -25,6 +27,14 @@ h3 {
    margin-top: 16px;
 }
 
+/* Base heading sizes for small screens (<768px) */
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
 
 #navbar {
 background-color: var(--primary-color);
@@ -124,5 +134,31 @@ body {
     margin-right: 24px;
 }
 
-/* Media Queries *?
+
+/* Media Queries for heading sizes */
+
+
+
+
+/* Tablet (≥768px) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Desktop (≥992px) */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+}
 
