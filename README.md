@@ -64,6 +64,12 @@ Wireframes were created for mobile, tablet, and desktop to ensure a responsive d
 |-------------|------------------|
 | ![Main Schema](images/Wireframe_main_schema.png) | ![Services Schema](images/Wireframe_services_schema.png) |
 
+#### Wireframe Schemas
+
+| Main Schema | Services Schema |
+|-------------|------------------|
+| ![Main Schema](images/Wireframe_main_schema.png) | ![Services Schema](images/Wireframe_services_schema.png) |
+
 ---
 
 ## Responsiveness
