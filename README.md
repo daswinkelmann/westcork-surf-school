@@ -1,4 +1,3 @@
-# westcork-surf-school
 # West Cork Surf School – README
 
 ## Project Overview
@@ -49,20 +48,21 @@ Wireframes were created for mobile, tablet, and desktop to ensure a responsive d
 
 #### Home Page Wireframes
 
-- ![Mobile Wireframe](images/SSUP_wire_main_MOB.png)
-- ![Tablet Wireframe](images/SSUP_wire_main_TAB.png)
-- ![Laptop Wireframe](images/SSUP_wire_main_LAP.png)
+| Mobile | Tablet | Laptop |
+|--------|--------|--------|
+| ![Mobile Wireframe](images/SSUP_wire_main_MOB.png) | ![Tablet Wireframe](images/SSUP_wire_main_TAB.png) | ![Laptop Wireframe](images/SSUP_wire_main_LAP.png) |
 
 #### Services Page Wireframes
 
-- ![Mobile Wireframe](images/SSUP_wire_services_MOB.png)
-- ![Tablet Wireframe](images/SSUP_wire_services_TAB.png)
-- ![Laptop Wireframe](images/SSUP_wire_services_LAP.png)
+| Mobile | Tablet | Laptop |
+|--------|--------|--------|
+| ![Mobile Wireframe](images/SSUP_wire_services_MOB.png) | ![Tablet Wireframe](images/SSUP_wire_services_TAB.png) | ![Laptop Wireframe](images/SSUP_wire_services_LAP.png) |
 
 #### Wireframe Schemas
 
-- ![Main Schema](images/Wireframe_main_schema.png)
-- ![Services Schema](images/Wireframe_services_schema.png)
+| Main Schema | Services Schema |
+|-------------|------------------|
+| ![Main Schema](images/Wireframe_main_schema.png) | ![Services Schema](images/Wireframe_services_schema.png) |
 
 ---
 
@@ -92,16 +92,11 @@ The primary colours take inspiration directly from the ocean, offering a mix of 
 
 The **SurfsUp** project uses two free and widely accessible Google Fonts: **Orelega One** and **Inter**. These were selected to reflect the tone — fun, light, and modern — while ensuring readability and accessibility.
 
-### Orelega One
-Used for headings and titles. Its soft curves and bold shape make it feel playful and energetic.
+### Font Samples
 
-### Inter
-Used for body copy and UI text. Clean and easy to read across all screen sizes.
-
-- ![Inter A](images/inter_A.png)
-- ![Inter B](images/inter_B.png)
-- ![Orelega A](images/orelega_A.png)
-- ![Orelega B](images/orelega_B.png)
+| Inter A | Inter B | Orelega A | Orelega B |
+|---------|---------|-----------|-----------|
+| ![Inter A](images/inter_A.png) | ![Inter B](images/inter_B.png) | ![Orelega A](images/orelega_A.png) | ![Orelega B](images/orelega_B.png) |
 
 ---
 
@@ -109,14 +104,13 @@ Used for body copy and UI text. Clean and easy to read across all screen sizes.
 
 The imagery in **SurfsUp** showcases the services at their best using photo-realistic AI-generated visuals from Google Gemini. These reflect the **natural beauty, energy, and excitement** of the surfing experience in West Cork. All images will be replaced with high-resolution professional photos in the final live site.
 
-- ![Group Laughing](images/group-laughing.png)
-- ![Girl with Wave](images/girl-wave.png)
-- ![Group Lesson](images/group-lesson2.png)
-- ![Group Walking](images/group-walking.png)
-- ![Kids on Beach](images/kids-on-beach.png)
-- ![Standup Man](images/standup-man.png)
-- ![Teen with Board](images/teen-with-board.png)
-- ![Adult Wave](images/adult-wave1.png)
+| Group Laughing | Girl with Wave | Group Lesson | Group Walking |
+|----------------|----------------|--------------|----------------|
+| ![](images/group-laughing.png) | ![](images/girl-wave.png) | ![](images/group-lesson2.png) | ![](images/group-walking.png) |
+
+| Kids on Beach | Standup Man | Teen with Board | Adult Wave |
+|---------------|-------------|------------------|------------|
+| ![](images/kids-on-beach.png) | ![](images/standup-man.png) | ![](images/teen-with-board.png) | ![](images/adult-wave1.png) |
 
 ---
 
@@ -143,9 +137,11 @@ The imagery in **SurfsUp** showcases the services at their best using photo-real
 - Contact info  
 - Social media icons
 
-- ![Mobile Screenshot](images/SSUP_screen_MOB_B.png)
-- ![Tablet Screenshot](images/SSUP_screen_TAB.png)
-- ![Laptop Screenshot](images/SSUP_screen_LAP.png)
+### Final Screenshots
+
+| Mobile | Tablet | Laptop |
+|--------|--------|--------|
+| ![Mobile Screenshot](images/SSUP_screen_MOB_B.png) | ![Tablet Screenshot](images/SSUP_screen_TAB.png) | ![Laptop Screenshot](images/SSUP_screen_LAP.png) |
 
 ---
 
@@ -170,27 +166,25 @@ The imagery in **SurfsUp** showcases the services at their best using photo-real
 
 ---
 
-### Validator Testing
+## Validator Testing
 
-#### HTML
-- Passed via W3C Validator  
-- ![HTML Validator Screenshot](images/html-validator.png)
-
-#### CSS
-- Passed via W3C CSS Validator  
-- ![CSS Validator Screenshot](images/css-validator.png)
+| HTML Validation | CSS Validation |
+|------------------|------------------|
+| ![HTML Validator](images/html-validator.png) | ![CSS Validator](images/css-validator.png) |
 
 ---
 
-### Lighthouse Testing
+## Lighthouse Testing
 
 Tested in Chrome DevTools. Scores ranged between **90–100** in Performance, Accessibility, Best Practices, and SEO.
 
-- ![Lighthouse Report](images/lighthouse-report.png)
+| Lighthouse Report |
+|-------------------|
+| ![Lighthouse Report](images/lighthouse-report.png) |
 
 ---
 
-### Accessibility
+## Accessibility
 
 - Colour contrast adheres to WCAG AA  
 - Semantic HTML throughout  
