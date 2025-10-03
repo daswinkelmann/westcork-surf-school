@@ -183,6 +183,8 @@ The site’s HTML and CSS were tested using official W3C tools and passed withou
 | `services.html`  | ![Services Validator](images/services-validator.png) |
 | `style.css`      | ![CSS Validator](images/css-validator.png)   |
 
+
+
 ## Lighthouse Testing
 
 Tested in Chrome DevTools. Scores ranged between **90–100** in Performance, Accessibility, Best Practices, and SEO.
