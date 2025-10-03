@@ -185,14 +185,11 @@ The site’s HTML and CSS were tested using official W3C tools and passed withou
 
 
 
-## Lighthouse Testing
+## Lighthouse
 
-Tested in Chrome DevTools. Scores ranged between **90–100** in Performance, Accessibility, Best Practices, and SEO.
+The site was tested using Lighthouse in Chrome DevTools with the mobile configuration. Results show strong performance across all categories, except performance, due to large images - to be fixed.
 
-| Lighthouse Report |
-|-------------------|
-| ![Lighthouse Report](images/lighthouse-report.png) |
-
+![Lighthouse Report](images/lighthouse-report.png)
 ---
 
 ## Accessibility
