@@ -13,6 +13,14 @@ The site provides information about the school, its services, lesson options, FA
 
 ---
 
+### Final Screenshots
+
+| Mobile | Tablet | Laptop |
+|--------|--------|--------|
+| ![Mobile Screenshot](images/SSUP_screen_MOB_D.png) | ![Tablet Screenshot](images/SSUP_screen_TAB_B.png) | ![Laptop Screenshot](images/SSUP_screen_LAP_B.png) |
+
+---
+
 ## User Experience (UX)
 
 ### Site Owner Goals
@@ -58,17 +66,14 @@ Wireframes were created for mobile, tablet, and desktop to ensure a responsive d
 |--------|--------|--------|
 | ![Mobile Wireframe](images/SSUP_wire_services_MOB.png) | ![Tablet Wireframe](images/SSUP_wire_services_TAB.png) | ![Laptop Wireframe](images/SSUP_wire_services_LAP.png) |
 
-#### Wireframe Schemas
+---
+
+
+### Wireframe Schemas
 
 | Main Schema | Services Schema |
 |-------------|------------------|
 | ![Main Schema](images/SSUP_wire_main_schema.png) | ![Services Schema](images/SSUP_wire_services_schema.png) |
-
-#### Wireframe Schemas
-
-| Main Schema | Services Schema |
-|-------------|------------------|
-| ![Main Schema](images/Wireframe_main_schema.png) | ![Services Schema](images/Wireframe_services_schema.png) |
 
 ---
 
@@ -83,14 +88,6 @@ Wireframes were created for mobile, tablet, and desktop to ensure a responsive d
 The colour palette for **SurfsUp** was chosen to evoke feelings of **freshness, fun**, and the natural world of **surf, sea, sand, and sun**. The tones are light and vibrant, aiming to reflect the easy-going, welcoming vibe of coastal life while still ensuring clarity and accessibility.
 
 The primary colours take inspiration directly from the ocean, offering a mix of calming blues and energising yellows. Special attention was given to contrast and visual harmony, ensuring combinations remain accessible and legible across devices.
-
-| Colour Name       | Hex Code   | Description                                   |
-|-------------------|------------|-----------------------------------------------|
-| Navy Blue         | `#05445E`  | Represents the deep ocean and builds trust    |
-| Blue Grotto       | `#189AB4`  | Suggests waves and a sense of freshness       |
-| Baby Blue         | `#D4F1F4`  | Offers a clean, crisp, airy feel              |
-| Amber             | `#F7CB2D`  | Adds a warm contrast like sunshine or sand    |
-| Teal (Secondary)  | `#00B2A9`  | Used for accents and surf-inspired energy     |
 
 
 | ![Colour Palette](images/ssup_colour_palette.png) |
@@ -162,7 +159,7 @@ The imagery in **SurfsUp** showcases the services at their best using photo-real
 
 | Mobile | Tablet | Laptop |
 |--------|--------|--------|
-| ![Mobile Screenshot](images/SSUP_screen_MOB_B.png) | ![Tablet Screenshot](images/SSUP_screen_TAB.png) | ![Laptop Screenshot](images/SSUP_screen_LAP.png) |
+| ![Mobile Screenshot](images/SSUP_screen_MOB_D.png) | ![Tablet Screenshot](images/SSUP_screen_TAB_B.png) | ![Laptop Screenshot](images/SSUP_screen_LAP_B.png) |
 
 ---
 
