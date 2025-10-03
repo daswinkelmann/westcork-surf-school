@@ -9,6 +9,7 @@
     --secondary-color: #189ab4; /* Blue Grotto */
     --highlight-color: #f7cb2d; /* amber */
     --highlight-color-light: #d4f1f4; /* faded blue */
+}
 
     body {
         font-family: var(--primary-font), sans-serif;
