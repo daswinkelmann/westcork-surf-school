@@ -12,6 +12,7 @@
 
 
 
+
 body {
     font-family: var(--primary-font), sans-serif;
 }
@@ -21,6 +22,7 @@ h2,
 h3 {
    font-family: var(--secondary-font);
    color: var(--primary-color);
+   margin-top: 16px;
 }
 
 
@@ -28,10 +30,19 @@ h3 {
 background-color: var(--primary-color);
 }
 
+.carousel {
+       margin-top: 32px;
+
+}
+
 div > .card-body {
     background-color: var(--highlight-color-light);
-    height: 190px;
-    
+    height: 190px;    
+}
+
+div > .card {
+        margin-bottom: 24px;
+
 }
 
 .social-links {
@@ -71,11 +82,13 @@ footer {
     background-color: var(--primary-color);
     color: azure;
     padding-bottom: 3rem;
+    padding-left: 12px;
+    padding-right: 12px;
 
 }
 /* update this colour later */
 #footer i {
-    color: var(--highlight-color-light);
+    color: var(--secondary-color);
     font-size: 1.2rem;
     margin-right: 15px;
 }
@@ -89,7 +102,7 @@ footer {
     color: var(--highlight-color);
 }
 
-#footer h2 {
+#footer h2, h3 {
     color: var(--highlight-color-light);
 }
 
@@ -100,3 +113,16 @@ border-color: white;
 body {
     scroll-behaviour: smooth;
 }
+
+#opening-times {
+   padding-left: 12px;
+    padding-right: 12px;
+}
+
+#footer .table * {
+    color: white;
+    margin-right: 24px;
+}
+
+/* Media Queries *?
+
